@@ -5,21 +5,21 @@
      - TakeHome
         - Homework
             - Block
-                - Adminhtml 'requirement 6,7'
+                - Adminhtml `requirement 6,7`
                     - Sales 
                         - Grid.php
             - etc
                 - config.xml
-                - system.xml 'requirement 3'
+                - system.xml `requirement 3`
             - Helper
                 - Data.php
             - Model
                 - mysql4
-                    - Observer.php 'requirement 4,5'
+                    - Observer.php `requirement 4,5`
                     - Mysql4
                         - Setup.php
             - sql
-                - homework_setup 'requirement 1,2'
+                - homework_setup `requirement 1,2`
                     - mysql4-install-1.0.0.0.php 
                     - mysql4-upgrade-1.0.0.0-2.0.0.0.php 
   - etc
