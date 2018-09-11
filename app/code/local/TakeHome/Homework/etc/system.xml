@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--3. The threshold for whether an item is “radioactive” 
+    should be configurable in System > Configuration-->
+<config>
+    <tabs>
+        <radioactive_config translate="label" module="homework">
+            <label>Radioactive</label>
+            <sort_order>1</sort_order>
+        </radioactive_config>
+    </tabs>
+    <sections>
+      <radioactive_section translate="label" module="homework">
+            <class>separator-top</class>
+            <label>Radioactive</label>
+            <tab>radioactive_config</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <radioactive_content translate="label">
+                    <label>Radioactive Threhold</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <radioactive_threhold_value translate="label comment">
+                            <label>Radioactive Threhod</label>
+                            <comment>number value</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </radioactive_threhold_value>
+                    </fields>
+                </radioactive_content>
+            </groups>
+        </radioactive_section>
+    </sections>
+</config>
