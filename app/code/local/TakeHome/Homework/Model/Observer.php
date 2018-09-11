@@ -1,5 +1,4 @@
 <?php
- class TakeHome_Homework_Model_Observer {
      /*
      4. The value of "Contains Radioactive Item" on the order should be "1" 
      if any of the items in the order are a product with a half-life value 
@@ -8,6 +7,8 @@
      5. The value of "Contains Radioactive Item" on the order should be 
      determined at order time
       */
+ class TakeHome_Homework_Model_Observer {
+
     function radioactiveCheck($observer){
         $order = $observer->getEvent()->getOrder();
         $store = Mage::app()->getStore(); 
@@ -17,6 +18,7 @@
         foreach($items as $item){
           $product =  $pro->load($item->getProductId());
         //  Mage::log($product->getHalfLifeSeconds(),null,"test.log");
+          
           if ($product->getHalfLifeSeconds() < $threholdValue){
             $order->setContainsRadioactiveItem(1);
             break;

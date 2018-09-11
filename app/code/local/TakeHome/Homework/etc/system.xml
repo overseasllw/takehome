@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
-<!--3. The threshold for whether an item is “radioactive” 
-    should be configurable in System > Configuration-->
+<!--
+    3. The threshold for whether an item is “radioactive” 
+    should be configurable in System > Configuration
+-->
 <config>
     <tabs>
         <radioactive_config translate="label" module="homework">

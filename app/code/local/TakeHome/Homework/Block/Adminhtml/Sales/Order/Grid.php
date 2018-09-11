@@ -1,10 +1,10 @@
 <?php 
-class TakeHome_Homework_Block_Adminhtml_Sales_Order_Grid extends Mage_Adminhtml_Block_Sales_Order_Grid
-{
-    /*
+/*
     6. Ayes/nocolumnshouldbeaddedtothesalesordergridintheadminforContainsRadioactiveItem.
     7. The column should be filterable and sortables
-     */
+*/
+class TakeHome_Homework_Block_Adminhtml_Sales_Order_Grid extends Mage_Adminhtml_Block_Sales_Order_Grid
+{
     protected function _prepareColumns()
     {
         $options = array(
