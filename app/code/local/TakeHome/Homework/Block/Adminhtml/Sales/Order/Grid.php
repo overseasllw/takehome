@@ -19,7 +19,6 @@ class TakeHome_Homework_Block_Adminhtml_Sales_Order_Grid extends Mage_Adminhtml_
                 'type'      =>  'options',
                 'options'   =>  $options,
                 'sortable'  =>  true,
-               // 'filter'    =>  false,
              )
         );
         $this->addColumnsOrder('contains_radioactive_item','grand_total'); 
