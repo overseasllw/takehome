@@ -26,6 +26,8 @@
     - modules
         - TakeHome_Homework.xml
 
+* > This homework is developed based on magento 1.8 *
+
 # Requirement
 1. The module should add a new product attribute called "Half-life (seconds)" of type integer to all products
 2. The module should add a new column "contains_radioactive_item" to the sales order
