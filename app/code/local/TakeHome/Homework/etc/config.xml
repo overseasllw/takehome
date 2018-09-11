@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+<!--
+    <This homework is developed based on magento 1.8>
+-->
 <config>
     <modules>
         <TakeHome_Homework>

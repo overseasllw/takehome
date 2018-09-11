@@ -1,13 +1,14 @@
 <?php
-     /*
-     4. The value of "Contains Radioactive Item" on the order should be "1" 
-     if any of the items in the order are a product with a half-life value 
-     less than the current radioactive threshold setting, otherwise "0".
+// <This homework is developed based on magento 1.8>
+/*
+    4. The value of "Contains Radioactive Item" on the order should be "1" 
+    if any of the items in the order are a product with a half-life value 
+    less than the current radioactive threshold setting, otherwise "0".
 
-     5. The value of "Contains Radioactive Item" on the order should be 
-     determined at order time
-      */
- class TakeHome_Homework_Model_Observer {
+     . The value of "Contains Radioactive Item" on the order should be 
+    determined at order time
+*/
+class TakeHome_Homework_Model_Observer {
 
     function radioactiveCheck($observer){
         $order = $observer->getEvent()->getOrder();
@@ -25,5 +26,5 @@
           }
         }
      }
- }
+}
 ?>

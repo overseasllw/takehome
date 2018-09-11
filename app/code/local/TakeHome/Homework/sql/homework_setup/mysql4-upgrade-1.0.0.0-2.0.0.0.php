@@ -1,10 +1,12 @@
 <?php 
-$installer = $this;
-$setup = new Mage_Eav_Model_Entity_Setup('core_setup');
-$installer->startSetup();
+// <This homework is developed based on magento 1.8>
 
 // #1 The module should add a new product attribute called "Half-life (seconds)"
 // of type integer to all products
+
+$installer = $this;
+$setup = new Mage_Eav_Model_Entity_Setup('core_setup');
+$installer->startSetup();
 
 $setup->addAttribute('catalog_product','half_life_seconds',array(
     'type'              => 'int',

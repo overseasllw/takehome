@@ -1,5 +1,6 @@
 <?php 
-/*
+/*  
+    <This homework is developed based on magento 1.8>
     6. Ayes/nocolumnshouldbeaddedtothesalesordergridintheadminforContainsRadioactiveItem.
     7. The column should be filterable and sortables
 */
