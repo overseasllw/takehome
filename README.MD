@@ -22,9 +22,9 @@
                 - homework_setup 'requirement 1,2'
                     - mysql4-install-1.0.0.0.php 
                     - mysql4-upgrade-1.0.0.0-2.0.0.0.php 
-    - etc
-        - modules
-            - TakeHome_Homework.xml
+  - etc
+    - modules
+        - TakeHome_Homework.xml
 
 # Requirement
 1. The module should add a new product attribute called "Half-life (seconds)" of type integer to all products
