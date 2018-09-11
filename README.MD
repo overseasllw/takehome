@@ -26,7 +26,7 @@
     - modules
         - TakeHome_Homework.xml
 
-* > This homework is developed based on magento 1.8 *
+> * This homework is developed based on magento 1.8 
 
 # Requirement
 1. The module should add a new product attribute called "Half-life (seconds)" of type integer to all products
