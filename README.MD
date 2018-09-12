@@ -1,12 +1,12 @@
 # Folder Structure
-- app 
-  - code 
+- app
+  - code
     - local
-     - TakeHome
-        - Homework
+      - TakeHome
+         - Homework
             - Block
                 - Adminhtml `requirement 6,7`
-                    - Sales 
+                    - Sales
                         - Grid.php
             - etc
                 - config.xml
@@ -20,8 +20,8 @@
                         - Setup.php
             - sql
                 - homework_setup `requirement 1,2`
-                    - mysql4-install-1.0.0.0.php 
-                    - mysql4-upgrade-1.0.0.0-2.0.0.0.php 
+                    - mysql4-install-1.0.0.0.php
+                    - mysql4-upgrade-1.0.0.0-2.0.0.0.php
   - etc
     - modules
         - TakeHome_Homework.xml
